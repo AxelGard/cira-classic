@@ -1,4 +1,4 @@
-# cira
+# cira-classic 
 A simpler library for alpaca-trade-api from Alpaca Markets.
 Cira is available on [pip](https://pypi.org/project/cira/). **Plz give it a star if you like it!**
 
@@ -46,19 +46,19 @@ print(cira.get_postion())
 cira.sell(1, "TSLA")
 ```
 
-## [Wiki](https://github.com/AxelGard/cira/wiki) and docs 
+## [Wiki](https://github.com/AxelGard/cira/wiki) and docs
 
 To see what more you can do check out the [wiki](https://github.com/AxelGard/cira/wiki).
 
 I also have an example of how to build a [index fund trader with cira](https://axelgard.github.io/blog/cira/2020/08/20/cira-index-fund.html) or check out [paper-trader](https://github.com/AxelGard/paper-trader) for my usage of cira.
 
-## Versioning & News 
+## Versioning & News
 
-cira still has some things that need be implemented in order to be enter a v0.1.0, for exampel stock shorting and support for more stock markets than NASDAQ. 
+cira still has some things that need be implemented in order to be enter a v0.1.0, for exampel stock shorting and support for more stock markets than NASDAQ.
 
 if you find bug plz let me know with a issue. If you know how to solve the problem then you can of course make a pull request and I will take a look at it.
 
-## Development 
+## Development
 To install cira with all the dev req.
 ```bash
 git clone git@github.com:AxelGard/cira.git
