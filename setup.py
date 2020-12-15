@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
     name='cira-classic',
     version='1.0.0',
-    description='A older style of the cira library. A simpler library for the alapaca trade api',
+    description='A older style of the cira library.',
     url='https://github.com/AxelGard/cira-classic/',
     author='Axel Gard',
     author_email='axel.gard@tutanota.com',

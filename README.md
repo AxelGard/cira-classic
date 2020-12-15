@@ -1,4 +1,4 @@
-# cira-classic 
+# cira-classic
 A simpler library for alpaca-trade-api from Alpaca Markets.
 Cira is available on [pip](https://pypi.org/project/cira/). **Plz give it a star if you like it!**
 
@@ -24,7 +24,7 @@ The name [cira](https://en.wikipedia.org/wiki/Cria) is the word for a baby alpac
 ### Installation
 You can install it using [pip](https://pypi.org/project/cira/).
 ```bash
-pip install cira
+pip install cira-classic
 ```
 
 ### Usage
@@ -39,7 +39,7 @@ You can also set the variables directly or use an environment variable. However,
 ```
 then you can start using the lib
 ```python
-import cira
+import cira-classic as cira 
 cira.KEY_FILE = "../mypath/key.json"
 cira.buy(1, "TSLA")
 print(cira.get_postion())
