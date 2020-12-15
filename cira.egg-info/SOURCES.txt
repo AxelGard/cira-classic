@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+cira/__init__.py
+cira/logging.py
+cira.egg-info/PKG-INFO
+cira.egg-info/SOURCES.txt
+cira.egg-info/dependency_links.txt
+cira.egg-info/requires.txt
+cira.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+python3 setup.py bdist_wheel sdist
+twine upload --skip-existing dist/*
+
+
+error when installing cira to vir env
+```
+Collecting cira
+  Downloading cira-0.0.4-py3-none-any.whl (5.5 kB)
+Building wheels for collected packages: asyncio-nats-client
+  Building wheel for asyncio-nats-client (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /home/axel/Programs/repositories/paper-trader/env/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rguulkgz/asyncio-nats-client/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rguulkgz/asyncio-nats-client/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-6wvdg319
+       cwd: /tmp/pip-install-rguulkgz/asyncio-nats-client/
+  Complete output (6 lines):
+  usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+     or: setup.py --help [cmd1 cmd2 ...]
+     or: setup.py --help-commands
+     or: setup.py cmd --help
+  
+  error: invalid command 'bdist_wheel'
+  ----------------------------------------
+  ERROR: Failed building wheel for asyncio-nats-client
+  Running setup.py clean for asyncio-nats-client
+Failed to build asyncio-nats-client
+Installing collected packages: urllib3, six, websocket-client, asyncio-nats-client, chardet, certifi, idna, requests, websockets, pytz, python-dateutil, numpy, pandas, alpaca-trade-api, cira
+    Running setup.py install for asyncio-nats-client ... done
+Successfully installed alpaca-trade-api-0.41 asyncio-nats-client-0.10.0 certifi-2019.9.11 chardet-3.0.4 cira-0.0.4 idna-2.8 numpy-1.17.4 pandas-0.25.3 python-dateutil-2.8.1 pytz-2019.3 requests-2.22.0 six-1.13.0 urllib3-1.24.3 websocket-client-0.56.0 websockets-8.1
+
+```
