@@ -11,7 +11,7 @@ setup(
     author='Axel Gard',
     author_email='axel.gard@tutanota.com',
     license='MIT',
-    packages=['cira'],
+    packages=['cira_classic'],
     long_description=long_description,
     long_description_content_type="text/markdown",
 
