@@ -2,7 +2,7 @@
 A simpler library for alpaca-trade-api from Alpaca Markets.
 Cira is available on [pip](https://pypi.org/project/cira/). **Plz give it a star if you like it!**
 
-![a cira](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.allthingsclipart.com%2F03%2Falpaca.001.jpg&f=1&nofb=1)
+![a cira](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipartmag.com%2Fimages%2Falpaca-clipart-30.jpg&f=1&nofb=1)
 
 ![GitHub stars](https://img.shields.io/github/stars/AxelGard/Cira?style=social)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/Axel_Gard)
@@ -39,7 +39,7 @@ You can also set the variables directly or use an environment variable. However,
 ```
 then you can start using the lib
 ```python
-import cira-classic as cira 
+import cira-classic as cira
 cira.KEY_FILE = "../mypath/key.json"
 cira.buy(1, "TSLA")
 print(cira.get_postion())
