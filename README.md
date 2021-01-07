@@ -50,13 +50,13 @@ cira.sell(1, "TSLA")
 
 To see what more you can do check out the [wiki](https://github.com/AxelGard/cira-classic/wiki).
 
-I also have an example of how to build a [index fund trader with cira](https://axelgard.github.io/blog/cira/2020/08/20/cira-index-fund.html) or check out [paper-trader](https://github.com/AxelGard/paper-trader) for my usage of cira.
+I also have an example of how to build a [index fund trader with cira-classic](https://axelgard.github.io/blog/cira/2020/08/20/cira-index-fund.html) or check out [paper-trader](https://github.com/AxelGard/paper-trader) for my usage of cira.
 
 ## Versioning & News
 
-cira still has some things that need be implemented in order to be enter a v0.1.0, for exampel stock shorting and support for more stock markets than NASDAQ.
+Cira-classic is the older structure of [cira](https://github.com/AxelGard/cira)
 
-if you find bug plz let me know with a issue. If you know how to solve the problem then you can of course make a pull request and I will take a look at it.
+If you find bug plz let me know with a issue. If you know how to solve the problem then you can of course make a pull request and I will take a look at it.
 
 ## Development
 To install cira with all the dev req.
