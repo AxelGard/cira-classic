@@ -16,7 +16,7 @@ The project is available [here](https://github.com/AxelGard/paper-trader).<br>
 However after working on this for alomst a year (off and on) I realized that I had alomst build a small library for using the Alpaca API.
 So I thought that I would make this into a real library so that you can get started with quantitative paper trading as well.
 
-The name [cira](https://en.wikipedia.org/wiki/cira-classic) is the word for a baby alpaca and because this is a simple and small lib I thought it would be a perfect fit.
+The name [cira](https://en.wikipedia.org/wiki/cira) is the word for a baby alpaca and because this is a simple and small lib I thought it would be a perfect fit.
 
 
 ## Getting Started
