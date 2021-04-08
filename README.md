@@ -10,6 +10,7 @@ Cira is available on [pip](https://pypi.org/project/cira-classic/). **Plz give i
 ![GitHub](https://img.shields.io/github/license/AxelGard/cira-classic?style=plastic)
 ![PyPI](https://img.shields.io/pypi/v/cira-classic)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cira-classic)
+![PyPI - downloads](https://img.shields.io/pypi/dm/cira-classic)
 
 I was interested in using the Alpaca trade API for building a quantitative paper trader.
 The project is available [here](https://github.com/AxelGard/paper-trader).<br>
