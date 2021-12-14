@@ -10,7 +10,7 @@ import json
 import alpaca_trade_api as tradeapi
 import logging
 import os
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 __author__ = 'Axel Gard'
 __credits__ = 'alpacahq markets'
 
@@ -226,6 +226,6 @@ def sell_list(lst):
     """ takes a list of symbols (str) and sells all stocks in that list """
     for sym in lst:
         qty = int(owned_stock_qty(sym))
-        #if not sym == 'GOOGL':  # BUG: fix, google has problem selling! 
+        #if not sym == 'GOOGL':  # BUG: fix, google has problem selling!
         sell(qty, sym)
     return None
